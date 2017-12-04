@@ -1,0 +1,15 @@
+name: ts-exp
+channels:
+    - defaults
+    - conda-forge
+dependencies:
+    - python=3.6.3
+    - pip=9.0.1
+    - matplotlib=2.1.0
+    - seaborn=0.8.1
+    - jupyter=1.0.0
+    - pandas=0.21.0
+    - statsmodels=0.8.0
+    - pymc3=3.2
+    - jupyter_contrib_nbextensions=0.3.3
+    - jupyter_nbextensions_configurator=0.2.8
