@@ -4,6 +4,11 @@ import seaborn as sns
 
 
 def tsplot(ts, lags=None):
+    """
+    Plot the time series with ACF and PACF
+        Stolen from Tom Augspurger's fantastic post on pandas and time series forecasting
+        https://tomaugspurger.github.io/modern-7-timeseries
+    """
     fig = plt.figure()
     layout = (2, 2)
     ts_ax = plt.subplot2grid(layout, (0, 0), colspan=2)
