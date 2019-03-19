@@ -5,6 +5,7 @@ channels:
 dependencies:
     - python=3.6.3
     - pip=9.0.1
+    - mypy=0.550
     - matplotlib=2.1.0
     - seaborn=0.8.1
     - jupyter=1.0.0
